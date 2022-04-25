@@ -30,6 +30,10 @@ $Orange: hsl(25, 97%, 53%);
     padding: 25px;
 }
 
+.rating{
+    display: block;
+}
+
 .heading{
     font: $font-size;
     color: $White;
@@ -96,4 +100,26 @@ p{
 
 .thankyou-state{
     display: none;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.thankyou-img{
+    width: 120px;
+}
+
+.rating-result{
+    background-color: hsl(213, 20%, 30%);
+    color: $Orange;
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.thankyou-text{
+    color: $Light-Grey;
 }
