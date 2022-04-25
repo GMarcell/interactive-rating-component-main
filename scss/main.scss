@@ -44,6 +44,10 @@ p{
     font-weight: 400;
 }
 
+.selected{
+    background-color: $Light-Grey !important;
+}
+
 .star{
     border-radius: 50%;
     padding: 10px;
@@ -56,13 +60,13 @@ p{
     padding: 20px 0;
     .star-value{
         padding: 10px;
-        background-color: red;
         border-radius: 50%;
         width: 40px;
         height: 40px;
         text-align: center;
         color: $White;
         background-color: hsl(213, 20%, 30%);
+        border: none;
     }
 }
 
@@ -71,9 +75,7 @@ p{
     background-color: $Orange;
 }
 
-.selected{
-    background-color: $Light-Grey;
-}
+
 
 .submit{
     width: 100%;

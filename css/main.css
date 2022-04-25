@@ -43,6 +43,10 @@ p {
   font-weight: 400;
 }
 
+.selected {
+  background-color: #959eac !important;
+}
+
 .star {
   border-radius: 50%;
   padding: 10px;
@@ -61,22 +65,18 @@ p {
 
 .rating-option .star-value {
   padding: 10px;
-  background-color: red;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   text-align: center;
   color: white;
   background-color: #3d4b5c;
+  border: none;
 }
 
 .star-value:hover {
   cursor: pointer;
   background-color: #fb7413;
-}
-
-.selected {
-  background-color: #959eac;
 }
 
 .submit {
